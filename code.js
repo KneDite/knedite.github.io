@@ -46,8 +46,8 @@ function Init(){
       $(".info > .infoMessage").css("display", "block");
       infoMessage.innerHTML = data.reason;
     }
-    */
-  });
+    
+  }); */
 }
 
 function News(data) {
