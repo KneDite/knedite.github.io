@@ -1,0 +1,14 @@
+{
+      "name": "Pray Times",
+      "short_name": "Pray Times",
+      "start_url": "index.html",
+      "display": "standalone",
+      "background_color": "#171B21",
+      "theme_color": "#171B21",
+      "icons": [{
+        "src": "icon-moon.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }]
+}
