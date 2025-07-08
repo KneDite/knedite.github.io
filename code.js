@@ -26,6 +26,12 @@ function Init(){
     })
   }
 
+  DateAndTimes();
+      setInterval(Time, 1000);
+      ForceUpdate();
+      $(".info").css("display", "none");
+      $(".main").css("display", "flex");
+/*
   fetch('status.php').then(response => response.json()).then(data => {
     if(data.power == 1){
       //News(data);
@@ -40,6 +46,7 @@ function Init(){
       $(".info > .infoMessage").css("display", "block");
       infoMessage.innerHTML = data.reason;
     }
+    */
   });
 }
 
